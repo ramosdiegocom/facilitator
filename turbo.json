@@ -1,0 +1,49 @@
+{
+  "$schema": "https://v2-9-6.turborepo.dev/schema.json",
+  "ui": "tui",
+  "globalEnv": [
+    "BETTER_AUTH_SECRET",
+    "BETTER_AUTH_URL",
+    "POLAR_ACCESS_TOKEN",
+    "POLAR_SUCCESS_URL",
+    "CORS_ORIGIN",
+    "DATABASE_URL",
+    "RESEND_API_KEY",
+    "UPSTASH_REDIS_REST_URL",
+    "UPSTASH_REDIS_REST_TOKEN",
+    "TRUST_PROXY_HEADERS",
+    "PRIVATE_KEY",
+    "CIRCLE_KIT_KEY",
+    "CIRCLE_API_KEY",
+    "CIRCLE_ENTITY_SECRET",
+    "CIRCLE_WALLET_SET_ID",
+    "FACILITATOR_API_KEY"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "db:push": {
+      "cache": false
+    },
+    "db:generate": {
+      "cache": false
+    },
+    "db:studio": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}
