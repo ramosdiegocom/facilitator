@@ -12,7 +12,7 @@ export default function AuthLayout({
 				position="top"
 			>
 				<div className="mx-auto flex h-full w-full max-w-5xl items-center px-4 sm:px-6">
-					<div className="font-bold tracking-wide">x402.diegolosramos.com</div>
+					<div className="font-bold tracking-wide">x402.ramosdiego.com</div>
 				</div>
 			</WireframeNav>
 

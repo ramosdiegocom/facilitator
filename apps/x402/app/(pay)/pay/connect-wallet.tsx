@@ -6,7 +6,7 @@ import { arcTestnet } from "wagmi/chains";
 import { Connection } from "@/app/(pay)/pay/connection";
 import { WalletOptions } from "@/app/(pay)/pay/wallet-options";
 
-const facilitatorUrl = "https://x402.diegolosramos.com/v2";
+const facilitatorUrl = "https://x402.ramosdiego.com/v2";
 
 export function ConnectWallet({
 	address,

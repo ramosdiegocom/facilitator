@@ -2,7 +2,7 @@
 
 Building layouts with fixed navbars, collapsible sidebars, and PWA safe areas means managing a web of interdependent CSS calculations that break whenever anything changes. Wireframe handles it all declaratively — define your dimensions once, and every margin, offset, and safe-area inset adjusts automatically.
 
-[![Wireframe Preview](/public/og.png)](https://diegolosramos.com/wireframe/playground)
+[![Wireframe Preview](/public/og.png)](https://ramosdiego.com/wireframe/playground)
 
 ## What It Does
 
@@ -18,7 +18,7 @@ Building layouts with fixed navbars, collapsible sidebars, and PWA safe areas me
 **1. Install using shadcn**
 
 ```bash
-bunx --bun shadcn@latest add https://diegolosramos.com/r/wireframe.json
+bunx --bun shadcn@latest add https://ramosdiego.com/r/wireframe.json
 ```
 
 **2. Build your layout**

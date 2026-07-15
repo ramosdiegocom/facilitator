@@ -2,7 +2,7 @@ import { codeToTokens } from "shiki";
 
 const codeExample = `import { NextRequest, NextResponse } from "next/server";
 
-const FACILITATOR = "https://x402.diegolosramos.com/v2";
+const FACILITATOR = "https://x402.ramosdiego.com/v2";
 const FACILITATOR_API_KEY = process.env.X402_FACILITATOR_API_KEY;
 
 export async function GET(req: NextRequest) {

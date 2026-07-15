@@ -8,8 +8,8 @@ export const X402_METADATA = {
 	description: "x402 App description",
 	defaultOgImagePath: "/opengraph-image",
 	locale: "en-US",
-	domain: "x402.diegolosramos.com",
-	shortDomain: "x402.diegolosramos.com",
+	domain: "x402.ramosdiego.com",
+	shortDomain: "x402.ramosdiego.com",
 	logoUrl: "/logo.png",
 	slogan: "Lorem ipsum dolor sit amet.",
 	socials: {

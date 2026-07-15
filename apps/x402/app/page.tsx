@@ -53,7 +53,7 @@ export default function Page() {
 					</Link>
 					<Link
 						className="inline-flex h-10 items-center justify-center rounded-4xl border border-border bg-input/30 px-4 font-medium text-foreground text-sm transition hover:bg-input/50"
-						href="https://x402.diegolosramos.com/v2"
+						href="https://x402.ramosdiego.com/v2"
 						target="_blank"
 					>
 						Read API Docs
@@ -139,7 +139,7 @@ export default function Page() {
 					</Link>
 					<Link
 						className="inline-flex h-10 items-center justify-center rounded-4xl border border-slate-600 px-4 font-medium text-slate-100 text-sm transition hover:bg-slate-800"
-						href="https://x402.diegolosramos.com/v2"
+						href="https://x402.ramosdiego.com/v2"
 						target="_blank"
 					>
 						View Reference

@@ -73,7 +73,7 @@ export function DashboardNavigation({
 			>
 				<WireframeSidebarHeader className="px-4 py-4">
 					<div className="font-bold text-lg text-slate-900">
-						x402.diegolosramos.com
+						x402.ramosdiego.com
 					</div>
 				</WireframeSidebarHeader>
 				<WireframeSidebarContent className="p-3">
@@ -109,7 +109,7 @@ export function DashboardNavigation({
 			>
 				<div className="flex h-full items-center px-4">
 					<span className="font-bold text-lg text-slate-900">
-						x402.diegolosramos.com
+						x402.ramosdiego.com
 					</span>
 				</div>
 			</WireframeNav>

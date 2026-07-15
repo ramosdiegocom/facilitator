@@ -5,7 +5,7 @@ import { parseUnits } from "viem";
 import type { SupportedChainCAIP2 } from "@/app/api/routers/chains";
 import { ARC_USDC_ADDRESS } from "@/lib/constants";
 
-const PROD_X402_FACILITATOR_BASE_URL = "https://x402.diegolosramos.com/v2";
+const PROD_X402_FACILITATOR_BASE_URL = "https://x402.ramosdiego.com/v2";
 const DEV_X402_FACILITATOR_BASE_URL = "http://localhost:3000/v2";
 
 export const X402_FACILITATOR_BASE_URL =
