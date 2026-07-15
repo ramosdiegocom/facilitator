@@ -1,16 +1,17 @@
 "use client";
 
+import { env } from "@ramoz/env/finance";
 import { tempo } from "mppx/client";
 import { useState } from "react";
 import { createClient, http } from "viem";
-import { privateKeyToAccount } from "viem/accounts";
+import { type Address, privateKeyToAccount } from "viem/accounts";
 import { Chain } from "viem/tempo";
 import { fluxConfig } from "@/app/flux/_server/config";
 
 const meteredStreamUrl = "/flux/stream-text";
 
 function createSession() {
-	const account = privateKeyToAccount(process.env.PRIVATE_KEY!);
+	const account = privateKeyToAccount(env.PRIVATE_KEY as Address);
 	const client = createClient({
 		account,
 		chain: Chain.testnet,
@@ -28,7 +29,7 @@ function createSession() {
 }
 
 async function streamMeteredText(
-	onChunk: (chunk: string) => void,
+	onChunk: (chunk: string) => void
 ): Promise<void> {
 	const { session } = createSession();
 
